@@ -14,6 +14,8 @@
 # Workflow
 - `ng generate class <folder-name>/<class-name>`
 - `ng generate component <folder-name>`
+- `ng generate class <folder-name>`
+- `ng generate service <folder-name>`
 
 
 ----
