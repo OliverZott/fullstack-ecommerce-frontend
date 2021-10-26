@@ -2,23 +2,36 @@
 - `npm install`
 - (`npm install -g @angular/cli`)
 - `ng serve --port 5666 --open`
-
-# Basics
-- https://angular.io/guide/file-structure
+- **Basics**: https://angular.io/guide/file-structure
 
 
+
+---------------------------------------------------------------------------------
 # Remarks
 - Mostly **public** fields... not like Java with getters/setters !
 
 
+---------------------------------------------------------------------------------
 # Workflow
-- `ng generate class <folder-name>/<class-name>`
+
+## Component 
 - `ng generate component <folder-name>`
-- `ng generate class <folder-name>`
+
+## Services
 - `ng generate service <folder-name>`
+- Adapt `app.module.ts` ... 
+  - add `HttpClientModule`
+  - add `ProductService` `[Providers]` for injections
+- 
 
 
-----
+
+## Data-Objects
+- `ng generate class <folder-name>/<class-name>`
+
+
+
+---------------------------------------------------------------------------------
 # FirstAngularProject
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.10.
