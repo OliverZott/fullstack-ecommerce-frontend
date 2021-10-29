@@ -5,6 +5,10 @@
 - **Basics**: https://angular.io/guide/file-structure
 
 
+# Images
+- Copy images from 
+  - www.luv2code.com/ecommerce-release-2.0-starter-files to
+  - `src/assets/products`
 
 ---------------------------------------------------------------------------------
 # Remarks

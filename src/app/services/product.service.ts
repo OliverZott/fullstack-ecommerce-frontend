@@ -11,7 +11,7 @@ import { Product } from '../common/product';
 })
 export class ProductService {
 
-  private baseUrl = "http://localhost:8080/api/products"
+  private baseUrl = "http://localhost:8080/api/products?size=100"
 
   constructor(private httpClient: HttpClient) { }
 
@@ -23,7 +23,7 @@ export class ProductService {
 
 }
 
-// unwrap JSON from spring data rest 
+// unwrap JSON from spring data rest
 interface GetResponse {
   _embedded: {
     products: Product[];
